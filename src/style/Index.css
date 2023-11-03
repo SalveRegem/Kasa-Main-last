@@ -1,0 +1,22 @@
+body {
+    box-sizing: border-box;
+    margin: 0 auto;
+    background: "../assets/img/A.png";
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+@media (max-width: 1024px) {
+    body {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}

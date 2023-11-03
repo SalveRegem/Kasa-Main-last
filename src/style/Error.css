@@ -1,0 +1,32 @@
+.error-ctn {
+    text-align: center;
+}
+
+.error-ctn h3 {
+    color: #FF6060;
+    font-weight: 500;
+    font-size: 36px;
+    margin-bottom: 183px;
+}
+
+.error p {
+    color: #FF6060;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+}
+
+@media (max-width:769px) {
+
+    .error-ctn img {
+        width: 60%;
+    }
+
+    .error-ctn h3 {
+        font-size: 18px;
+    }
+
+    .error p {
+        font-size: 14px;
+    }
+}

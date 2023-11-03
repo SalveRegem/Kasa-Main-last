@@ -1,0 +1,63 @@
+.collapse-title {
+    background: #FF6060;
+    border-radius: 5px;
+    color: #FFFF;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 18px;
+    padding-right: 18px;
+    height: 47px;
+    cursor: pointer;
+}
+
+.collapse-title h3 {
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.collapse-desc {
+    background: #F6F6F6;
+    height: 80%;
+    padding: 20px;
+    margin-bottom: 33px;
+    transition: 0.2s ease-in-out all;
+    opacity: 1;
+}
+
+.collapse-desc p {
+    margin: 0;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34.22px;
+    color: #FF6060;
+}
+
+.desc-hide {
+    transition: 0.1s;
+    visibility: hidden;
+    opacity: 0;
+    overflow: hidden;
+    height: 30px;
+}
+
+
+.collapse-title:active .arrowUp {
+    transition: transform 0.3s ease-in-out;
+    animation: rotate 0.3s;
+}
+
+.collapse-about {
+    height: 20%;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotateZ(0deg);
+    }
+
+    100% {
+        transform: rotateZ(180deg);
+    }
+}

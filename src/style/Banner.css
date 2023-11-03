@@ -1,0 +1,48 @@
+.banner-home {
+    background: url(../assets/banner/BannerHome.jpg) center/cover;
+    height: 223px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 43px;
+}
+
+
+.banner-home h1 {
+    color: #FFFF;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 48px;
+}
+
+.banner-about {
+    background: url(../assets/banner/BannerAbout.jpg) center/cover;
+    height: 223px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 33px;
+}
+
+@media (max-width: 1024px) {
+    .banner-home h1 {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 768px) {
+    .banner-home h1 {
+        font-size: 24px;
+        width: 100%;
+        text-align: left;
+        margin-left: 16px;
+
+    }
+
+    .banner-home {
+        height: 110px;
+    }
+}

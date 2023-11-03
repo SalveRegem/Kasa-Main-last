@@ -1,0 +1,52 @@
+.slider {
+    position: relative;
+}
+
+.arrowLeft {
+    position: absolute;
+    left: 23px;
+    top: 288px;
+    cursor: pointer;
+}
+
+.arrowRight {
+    position: absolute;
+    right: 23px;
+    top: 288px;
+    cursor: pointer;
+}
+
+.picture-appart {
+    width: 100%;
+    border-radius: 25px;
+    height: 682px;
+    object-fit: cover;
+}
+
+.counter {
+    text-align: center;
+    margin-top: -40px;
+    color: #FFFF;
+}
+
+@media (max-width:769px) {
+
+
+    .arrowLeft {
+        width: 20px;
+        height: 29px;
+        top: 140px;
+    }
+
+    .arrowRight {
+        width: 20px;
+        height: 29px;
+        top: 140px;
+    }
+}
+
+@media (max-width: 425px) {
+    .counter {
+        display: none;
+    }
+}
