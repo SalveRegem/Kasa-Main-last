@@ -43,6 +43,10 @@
         height: 29px;
         top: 140px;
     }
+
+    .picture-appart{
+        height: 306px;
+    }
 }
 
 @media (max-width: 425px) {

@@ -19,7 +19,7 @@ const Slideshow = (image) => {
 
   const compteur = `${counter + 1}/${slideLength}`;
 
-  // Condition pour afficher ou masquer les flèches et le compteur
+  
   const shouldShowControls = slideLength > 1;
 
   return (
