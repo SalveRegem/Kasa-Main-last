@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import arrowRight from "../assets/slideShowRight.png";
 import arrowLeft from "../assets/slideShowLeft.png";
+import "../style/Slideshow.css";
 
 const Slideshow = (image) => {
   const [counter, setCounter] = useState(0);

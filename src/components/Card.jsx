@@ -1,6 +1,7 @@
 import React from "react";
 import logement from "../data/logements.json";
 import { Link } from "react-router-dom";
+import "../style/Card.css";
 
 const Card = () => {
   return (

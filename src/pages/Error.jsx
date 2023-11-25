@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../components/Header.jsx";
 import error from "../assets/Error404.png";
 import { NavLink } from "react-router-dom";
+import "../style/Error.css";
 
 const Error = () => {
   return (
