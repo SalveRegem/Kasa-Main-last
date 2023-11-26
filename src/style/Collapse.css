@@ -43,8 +43,18 @@
 }
 
 
-.collapse-title:active .arrowUp {
+.collapse-title .arrowUp,
+.collapse-title .arrowDown {
     transition: transform 0.3s ease-in-out;
+}
+
+.collapse-title:active .arrowUp {
+    transform: rotate(90deg); 
+    animation: rotate 0.3s;
+}
+
+.collapse-title:active .arrowDown {
+    transform: rotate(90deg);
     animation: rotate 0.3s;
 }
 
@@ -53,11 +63,7 @@
 }
 
 @keyframes rotate {
-    0% {
-        transform: rotateZ(0deg);
-    }
-
-    100% {
-        transform: rotateZ(180deg);
+    to {
+        transform: rotate(180deg);
     }
 }

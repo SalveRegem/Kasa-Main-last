@@ -4,7 +4,7 @@ import arrowDown from "../assets/arrowDown.png";
 import "../style/collapse.css";
 
 const Collapse = ({ state, defaultState = false }) => {
-  const [isCollapsed, setIsCollapsed] = useState(defaultState);
+const [isCollapsed, setIsCollapsed] = useState(defaultState);
 
   const toggleCollapse = () => {
     setIsCollapsed(!isCollapsed);
