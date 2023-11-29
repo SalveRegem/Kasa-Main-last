@@ -5,6 +5,7 @@ import { useParams, useNavigate, Outlet } from "react-router-dom";
 import logement from "../data/logements";
 import Stars from "../components/Stars";
 import Collapse from "../components/Collapse.jsx";
+import Footer from "../components/Footer.jsx"
 import "../style/Accomodation.css";
 
 const Accomodation = () => {
@@ -76,6 +77,7 @@ const Accomodation = () => {
           {/* Rendu du Collapse avec les équipements du logement */}
         </div>
       </div>
+      <Footer />
     </div>
   );
 };
