@@ -9,7 +9,8 @@ const Banner = () => {
     <div>
       <div className={location.pathname === "/" ? "banner-home" : ""}>
         {location.pathname !== "/about" && (
-          <h1>Chez vous, partout et ailleurs</h1>
+          <h1>Chez vous, 
+            <span className="line-break">partout et ailleurs</span></h1>
         )}
       </div>
       <div

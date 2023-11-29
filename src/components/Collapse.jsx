@@ -17,7 +17,7 @@ const [isCollapsed, setIsCollapsed] = useState(defaultState);
       >
         <h3>{state.title}</h3>
         <img
-          className="arrowUp arrowDown"
+          className="arrowUp arrowDown icon-more"
           src={isCollapsed ? arrowUp : arrowDown}
           alt="arrow"
         />

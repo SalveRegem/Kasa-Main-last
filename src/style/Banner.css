@@ -35,12 +35,15 @@
 
 @media (max-width: 768px) {
     .banner-home h1 {
-        font-size: 24px;
+        font-size: 33px;
         width: 100%;
         text-align: left;
         margin-left: 16px;
-
     }
+    .line-break::before {
+        content: '\A';
+        white-space: pre;
+      }
 
     .banner-home {
         height: 170px;
