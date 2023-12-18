@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 import logement from "../data/logements";
 import StarsFull from "../assets/star-active.png";
 import StarsEmpty from "../assets/star-inactive.png";
-import "../style/Stars.css";
+
 
 const Stars = () => {
   const { id } = useParams();

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import arrowUp from "../assets/arrowUp.png";
 import arrowDown from "../assets/arrowDown.png";
-import "../style/collapse.css";
+
 
 const Collapse = ({ state, defaultState = false }) => {
 const [isCollapsed, setIsCollapsed] = useState(defaultState);
