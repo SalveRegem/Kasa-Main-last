@@ -1,11 +1,5 @@
 import React from "react";
-import {
-  BrowserRouter,
-  Routes,
-  Route,
-  Outlet,
-  Navigate,
-} from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Outlet, Navigate } from "react-router-dom";
 import About from "../pages/About.jsx";
 import Error from "../pages/Error.jsx";
 import Home from "../pages/Home.jsx";
@@ -14,7 +8,8 @@ import Accomodation from "../pages/Accomodation.jsx";
 const Root = () => {
   return (
     <div>
-      <BrowserRouter>
+      {/* Use HashRouter instead of BrowserRouter */}
+      <Router>
         <Routes>
           <Route path="/" element={<Outlet />}>
             <Route path="/" element={<Home />} />
@@ -25,7 +20,7 @@ const Root = () => {
           {/* L'élément Outlet permet d'afficher le contenu des routes enfants */}
           <Route path="/error" element={<Error />} />
         </Routes>
-      </BrowserRouter>
+      </Router>
     </div>
   );
 };
