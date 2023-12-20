@@ -1,6 +1,6 @@
 [build]
   command = "npm run build"
-  publish = "KASA-MAIN-LAST/dist"
+  publish = "dist"
 
 [settings]
   # Ajoutez vos variables d'environnement ici si nécessaire
